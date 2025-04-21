@@ -91,10 +91,10 @@ while cap.isOpened():
     cv2.putText(frame, f'Unique faces detected: {len(known_face_encodings)}',
                 (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7,
                 (255, 0, 0), 2)
-    cv2.putText(frame, time_text, (10, 90),
-                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
-    cv2.putText(frame, progress_text, (10, 120),
-                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+    # cv2.putText(frame, time_text, (10, 90),
+    #             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
+    # cv2.putText(frame, progress_text, (10, 120),
+    #             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 
     # Show video
     cv2.imshow('Tracking', frame)

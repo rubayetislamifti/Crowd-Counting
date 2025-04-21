@@ -32,7 +32,7 @@ model_detect = YOLO("yolo11n.pt")
 tracker = DeepSort(max_age=60, n_init=3, max_iou_distance=0.9)
 
 # Open video file
-cap = cv2.VideoCapture(r'I:\opencv-people-counter\kagglehub\datasets\khitthanhnguynphan\crowduit\versions\1\Crowd-UIT\Video\4.mp4')
+cap = cv2.VideoCapture(r"I:\kagglehub\datasets\khitthanhnguynphan\crowduit\versions\1\Crowd-UIT\Video\2.mp4")
 
 # Sets to store track IDs and face encodings
 unique_person_ids = set()

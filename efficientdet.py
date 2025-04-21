@@ -44,7 +44,7 @@ mtcnn = MTCNN(keep_all=False, device=device)
 facenet = InceptionResnetV1(pretrained='vggface2').eval().to(device)
 
 # ---- Load Video ----
-video_path = r"I:\opencv-people-counter\kagglehub\datasets\khitthanhnguynphan\crowduit\versions\1\Crowd-UIT\Video\4.mp4"
+video_path = r"I:\kagglehub\datasets\khitthanhnguynphan\crowduit\versions\1\Crowd-UIT\Video\9.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # ---- Video Writer Setup ----

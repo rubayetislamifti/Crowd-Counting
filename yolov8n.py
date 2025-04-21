@@ -16,7 +16,7 @@ tracker = DeepSort(
 )
 
 # Open video file
-cap = cv2.VideoCapture(r"I:\opencv-people-counter\kagglehub\datasets\khitthanhnguynphan\crowduit\versions\1\Crowd-UIT\Video\4.mp4")
+cap = cv2.VideoCapture(r"I:\kagglehub\datasets\khitthanhnguynphan\crowduit\versions\1\Crowd-UIT\Video\8.mp4")
 
 # Set to store unique person IDs and known face encodings
 unique_ids = set()
